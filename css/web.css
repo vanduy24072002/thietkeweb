@@ -5,15 +5,27 @@ body{
 }
 #header{
     width: 100%;
-    height: 100px;
-    margin-bottom: 5px;
+    height: 110px;
+    margin-bottom: 5px; 
+    border: 1px solid black;
+    border-radius: 10px;
 }
-#header h1{
+#header div{
     float: right;
-    font-size: 35px;
-    font-family:cursive;
     width: 60%;
 }
+#header h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-family:cursive;
+    
+}
+#header p{
+    font-family:cursive;
+    text-align: end;
+}
+
 #header::after{
 	content: "";
 	display: table;
@@ -21,8 +33,10 @@ body{
 }
 #nav{
     width: 100%;
-    height: 70px;
-  
+    height: 58px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    border: 1px solid black;  
 }
 #nav ul{
 	list-style-type: none;
@@ -44,17 +58,18 @@ body{
     width: 100%;
 }
 #section{
-    width: 70%;
+    width: 636px;
     height: 330px;
-   
+    border: 1px solid black;  
 }
 #article{
     width: 632px;
     height: 380px;
     margin-top: 3px;
     padding: 2px;
-    background-color:rgb(179, 233, 168);  
+    background-color:rgb(185, 224, 178);  
     border-radius: 10px;
+    border: 1px solid black;
 }
 #aside{
     width: 30%;
@@ -72,7 +87,7 @@ body{
   
  #aside input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #1e9c22;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -88,6 +103,7 @@ body{
     border-radius: 5px;
     background-color:sandybrown;
     padding: 10px;
+    border: 1px solid black;
  }
 #aside h3{
     background-color: #1987d1;
@@ -101,6 +117,7 @@ body{
     padding: 10px;
     background-color:rgb(118, 193, 236);
     border-radius: 10px;
+    border: 1px solid black;
 }
 .hotro #div1 div{
     float: right;
@@ -148,8 +165,9 @@ body{
     height: 150px;
 }
 #footer{
-    background-color:slategrey;
+    background-color:rgb(93, 95, 97);
     height:auto;
     margin-top: 5px;
     border-radius: 10px;
+    border: 1px solid black;
 }
