@@ -63,7 +63,7 @@ body{
     border: 1px solid black;  
 }
 #article{
-    width: 69%;
+    width: 68%;
     height: 380px;
     margin-top: 3px;
     padding: 2px;
@@ -149,7 +149,7 @@ body{
 }
 #dv1 div{
     float: right ;
-    width: 70%;
+    width: 75%;
     height: 150px;
 }
 #article h4{
@@ -161,7 +161,7 @@ body{
 }
 #dv2 div{
     float: right ;
-    width: 70%;
+    width: 75%;
     height: 150px;
 }
 #footer{
